@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/God-Is-A-Bird/go-PhotoOrientationOrganizer/internal/utils"
+	"github.com/God-Is-A-Bird/PhotoOrientationOrganizer/internal/utils"
 )
 
 func EnumerateImageFiles(dirpath string, paths []string, jobs chan<- string, WG *sync.WaitGroup) {

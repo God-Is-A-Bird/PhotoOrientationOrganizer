@@ -3,8 +3,8 @@ package cmd
 import (
 	"flag"
 
-	"github.com/God-Is-A-Bird/go-PhotoOrientationOrganizer/internal/app"
-	"github.com/God-Is-A-Bird/go-PhotoOrientationOrganizer/internal/utils"
+	"github.com/God-Is-A-Bird/PhotoOrientationOrganizer/internal/app"
+	"github.com/God-Is-A-Bird/PhotoOrientationOrganizer/internal/utils"
 )
 
 func Execute() {

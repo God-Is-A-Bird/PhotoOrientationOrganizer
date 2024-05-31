@@ -1,4 +1,4 @@
-module github.com/God-Is-A-Bird/go-PhotoOrientationOrganizer
+module github.com/God-Is-A-Bird/PhotoOrientationOrganizer
 
 go 1.22.3
 

@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/God-Is-A-Bird/go-PhotoOrientationOrganizer/internal/utils"
+	"github.com/God-Is-A-Bird/PhotoOrientationOrganizer/internal/utils"
 )
 
 func EnumerateSubdirectories(dir string) ([]string, error) {

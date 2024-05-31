@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/God-Is-A-Bird/go-PhotoOrientationOrganizer/internal/utils"
+	"github.com/God-Is-A-Bird/PhotoOrientationOrganizer/internal/utils"
 	"github.com/cheggaaa/pb/v3"
 )
 
