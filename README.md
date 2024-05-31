@@ -17,6 +17,6 @@ Usage of ./go-PhotoOrientationOrganizer:
     	Images with less than this will not be symlinked
 ```
 
-Depending on your file structure, you may find it beneficial to play around with `-dir-workers` and `-img-workers`. These control the number of GO Routines spawned. Remember, you're likely limited my your drive's read speeds, not CPU, so choose values that make sense. On Linux, you can use `iostat [drive] [timeduration]` (ex. `iostat sda 5` to print every five seconds) to monitor your drive's `%iowait` and `%idle`. If `%iowait` is nearly maxed out, spawning more workers won't help and may actually hurt performance. 
+Depending on your file structure, you may find it beneficial to play around with `-dir-workers` and `-img-workers`. These control the number of GO Routines spawned. Remember, you're likely limited by your drive's read speeds, not CPU, so choose values that make sense. On Linux, you can use `iostat [drive] [timeduration]` (ex. `iostat sda 5` to print every five seconds) to monitor your drive's `%iowait` and `%idle`. If `%iowait` is nearly maxed out, spawning more workers won't help and may actually hurt performance. 
 
 ![image](https://github.com/God-Is-A-Bird/PhotoOrientationOrganizer/assets/27874321/8ea798a7-d1b1-4111-9fdc-0f99f2c1d77a)
