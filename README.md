@@ -2,8 +2,11 @@ Are you a programmer of culture with one portrait monitor for Spotify/Discord/Do
 
 This program creates a `.poo` directory in the PWD mirroring the PWD's directory structure and places symlinks of all images into `.poo/Portrait` or `.poo/Landscape`.
 
+How To Install (requires you to already have Go installed on your system):
 
-Usage of ./go-PhotoOrientationOrganizer:
+`go install github.com/God-Is-A-Bird/PhotoOrientationOrganizer@latest`
+
+Usage of `PhotoOrientationOrganizer`:
 ```
   -dir string
     	Directory you would like the program to search for images in and create .poo dir with symlinks. (default "/home/rbhatt/Projects/LearningGo/go-PhotoOrientationOrganizer")
